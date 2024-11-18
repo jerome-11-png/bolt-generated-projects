@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*$py.class
+uploaded_files/
+.env
+venv/
+.streamlit/

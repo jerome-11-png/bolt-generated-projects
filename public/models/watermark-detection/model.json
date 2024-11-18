@@ -1,0 +1,59 @@
+{
+  "format": "graph-model",
+  "generatedBy": "2.14.0",
+  "convertedBy": "TensorFlow.js Converter v4.11.0",
+  "signature": {
+    "inputs": {
+      "images": {
+        "name": "images:0",
+        "dtype": "DT_FLOAT",
+        "tensorShape": {
+          "dim": [
+            {
+              "size": "1"
+            },
+            {
+              "size": "640"
+            },
+            {
+              "size": "640"
+            },
+            {
+              "size": "3"
+            }
+          ]
+        }
+      }
+    },
+    "outputs": {
+      "output": {
+        "name": "output:0",
+        "dtype": "DT_FLOAT",
+        "tensorShape": {
+          "dim": [
+            {
+              "size": "1"
+            },
+            {
+              "size": "-1"
+            },
+            {
+              "size": "6"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "modelTopology": {
+    // ... model architecture (this would be your actual converted YOLOv8 model)
+  },
+  "weightsManifest": [
+    {
+      "paths": ["group1-shard1of1.bin"],
+      "weights": [
+        // ... weight specifications
+      ]
+    }
+  ]
+}
